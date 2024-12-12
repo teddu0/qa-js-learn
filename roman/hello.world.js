@@ -1,1 +1,1 @@
-// напиши свою первую программу Hello world
+console.log("Pedor Kostya")
