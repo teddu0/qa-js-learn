@@ -1,1 +1,1 @@
-console.log("Hello World!!!");
+// напиши свою первую программу Hello world
