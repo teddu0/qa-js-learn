@@ -8,7 +8,7 @@ const lenovoBook = 50000;
 
 if (balance >= macBookCost) {
     console.log("Покупаем Мак!!!");
-} else if (balance >= lenovoBook){
+} else if (balance >= lenovoBook) {
     console.log("Покупаем Lenovo!!!");
 } else {
     console.log("Мы бомжи!!!");
