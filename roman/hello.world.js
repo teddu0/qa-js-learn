@@ -13,7 +13,7 @@
 
 const freedays = 11-2
 const daysforwork = 40/5
-console.log(freedays >= daysforwork);
+console.log( "Smogu rabotat? " + (freedays >= daysforwork));
 
-const babki = 40 * 8
-console.log(babki);
+const babki = 40 * 80
+console.log("ZP " + babki);
