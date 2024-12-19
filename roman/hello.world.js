@@ -1,19 +1,19 @@
 
-let a = 1;
-console.log(a)
-a = 'test';
-console.log(a)
+/*
+Ваша часовая ставка 80$ и вы готовы работать не
+более 5 часов в день 5 дней в неделю (кроме выходных).
+К вам приходит заказчик и предлагает заказ на 40
+часов работы.
+Сейчас понедельник.
+Вы должны уехать через 11 дней.
+Выведете в консоль:
+- Boolean п9еременную успеете ли вы взяться за работу
+- Сколько вы за неё попросите?
+*/
 
-// Базовые прифметические операторы
-const widht = 10;
-const height = 5;
-const cpase = widht * height;
-console.log(cpase)
+const freedays = 11-2
+const daysforwork = 40/5
+console.log(freedays >= daysforwork);
 
-
-// Строки
-
-const city = 'Moscow';
-const street = 'Lenina'
-const adres = city + street;
-console.log(adres)
+const babki = 40 * 8
+console.log(babki);
