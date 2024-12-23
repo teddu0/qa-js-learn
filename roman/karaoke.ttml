@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:itunes="http://itunes.apple.com/lyric-ttml-extensions" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xml:lang="en-US">
+  <head>
+    <metadata>
+      <ttm:title>Дуэт "Горбатая Кора"</ttm:title>
+    </metadata>
+    <ttm:agent xml:id="voice1" type="person">
+      <ttm:name type="full">Максим</ttm:name>
+    </ttm:agent>
+  </head>
+  <body>
+    <div>
+        <p begin="00:00:00.328" end="00:00:03.715">37 тебе, Максим</p>
+        <p begin="00:00:03.924" end="00:00:06.786">Нам работать классно с ним</p>
+        <p begin="00:00:07.436" end="00:00:09.611">Он ноутбуки раздает</p>
+        <p begin="00:00:10.624" end="00:00:12.790">Очень круто он поет</p>
+        <p begin="00:00:12.894" end="00:00:16.184">Он здоровенный блин мужик</p>
+        <p begin="00:00:16.509" end="00:00:19.823">Наверно любит он шашлык</p>
+        <p begin="00:00:20.229" end="00:00:22.664">Он на днюху нас позвал</p>
+        <p begin="00:00:23.464" end="00:00:25.294">Как отдыхать нам показал</p>
+        <p begin="00:00:26.384" end="00:00:32.295">За розетки на работе всем готов он дать по морде</p>
+        <p begin="00:00:32.433" end="00:00:35.184">Вы с Максимом не шутите</p>
+        <p begin="00:00:35.788" end="00:00:37.865">Лучше 10 раз спросите</p>
+    </div>
+  </body>
+</tt>
