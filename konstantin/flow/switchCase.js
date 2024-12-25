@@ -23,10 +23,10 @@ switch (randomRole) {
 }
 
 switch (true) {
-  case randomIndex === 1:
-  case randomIndex === 2:
-  case randomIndex === 3:
-  case randomIndex === 4:
+  case randomIndex === 1: // true = 1 === 1
+  case randomIndex === 2: // true = 2 === 2
+  case randomIndex === 3: // true = 3 === 3
+  case randomIndex === 4: // true = 4 === 4
     console.log("Рандомное число больше != 0");
     break;
   default:
