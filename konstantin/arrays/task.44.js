@@ -10,18 +10,15 @@ function deleteTaskByName(taskName) {
     console.log(`${taskName} нет в списке задач!`);
     return;
   }
-  tasks.splice(taskIndex, 1);
+  return tasks.splice(taskIndex, 1);
 }
 
 function moveTaskToStart(taskName) {
-  const taskIndex = tasks.indexOf(taskName);
-  if (taskIndex === -1) {
-    console.log(`${taskName} нет в списке задач!`);
+  const oldTask = deleteTaskByName(taskName);
+  if (!oldTask) {
     return;
   }
-  const oldTask = tasks[taskIndex];
-  tasks.splice(taskIndex, 1);
-  tasks.unshift(oldTask);
+  tasks.unshift(oldTask[0]);
 }
 
 taskAdd("Task 3");
