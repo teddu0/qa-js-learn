@@ -1,0 +1,9 @@
+Добавляет все файлы в комит (заливает все изменения в ветку ainaz)
+git add .
+git commit -m 'коммент'
+git push 
+
+Добавить изменения в мастер
+git checkout main
+git merge ainaz (название ветки)
+git push
