@@ -1,14 +1,20 @@
 function box(width, height, text) {
   const array = [];
   const symbol = "*";
-  const top = symbol.repeat(width);
-  const bottom = symbol.repeat(width);
   for (let i = 1; i <= height; i++) {
     array.push(symbol);
     if (i === height && height % 2 === 0) {
       array.push(symbol);
     }
   }
+
+  if (width % 2 === 0 && text.length % 2 === 1) {
+    width++;
+  } else if (width % 2 === 1 && text.length % 2 === 0) {
+    width++;
+  }
+
+  let edge = symbol.repeat(width);
   if (width <= text.length + 2) {
     console.log("Недостаточно ширины");
     return;
@@ -19,22 +25,17 @@ function box(width, height, text) {
     return;
   }
 
-  const side = " ".repeat((top.length - text.length) / 2);
-  console.log(side);
+  const side = " ".repeat((edge.length - 2 - text.length) / 2);
+  console.log(edge);
 
-  //   const leftSpace = " ".repeat(text.length / 2);
-  //   const rightSpace = " ".repeat(text.length / 2);
-  console.log(top);
   array.forEach((el, i) => {
     if (i + 1 !== Math.round(array.length / 2)) {
-      console.log(el + " ".repeat(top.length - 2) + el);
+      console.log(el + " ".repeat(edge.length - 2) + el);
     } else {
       console.log(el + side + text + side + el);
     }
   });
-
-  //   console.log(text);
-  console.log(bottom);
+  console.log(edge);
 }
 
-box(11, 2, "heollssf");
+box(14, 2, "TEXT");
