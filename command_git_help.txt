@@ -15,3 +15,5 @@ git push
 git checkout (название ветки) - переместиться в ветку
 git merge main
 git push
+
+git pull origin main - стянуть и сразу объядинить изменения
