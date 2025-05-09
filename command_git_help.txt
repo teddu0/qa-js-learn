@@ -10,3 +10,10 @@ git checkout main
 git merge ainaz (название ветки)
 git commit -m 'коммент' (Если ошибка)
 git push
+
+Стянуть изменения с мастера себе 
+git checkout (название ветки) - переместиться в ветку
+git merge main
+git push
+
+git pull origin main - стянуть и сразу объядинить изменения
