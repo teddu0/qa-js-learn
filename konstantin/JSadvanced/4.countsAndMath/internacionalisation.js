@@ -1,0 +1,18 @@
+/**
+ * Интернационализация чисел
+ */
+
+const option1 = {
+  style: "currency",
+  currency: "RUB",
+  //   useGrouping: false,
+};
+
+const option2 = {
+  style: "unit",
+  unit: "fahrenheit",
+  //   useGrouping: false,
+};
+
+console.log(new Intl.NumberFormat("ru-RU", option1).format(10000));
+console.log(new Intl.NumberFormat("ru-RU", option2).format(22));
