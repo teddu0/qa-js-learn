@@ -1,5 +1,7 @@
 /**
  * Интернационализация чисел
+ * Болле подробно с интернационализацией чисел можно ознакомиться здесь:
+ * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Internationalization
  */
 
 const option1 = {
