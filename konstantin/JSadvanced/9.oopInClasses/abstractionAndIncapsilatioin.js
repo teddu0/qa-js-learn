@@ -1,5 +1,6 @@
 "use strict";
 
+// инкапсуляция и абстракция
 class Film {
   #name;
   #author;
